@@ -1,26 +1,5 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,codeigniter,sublimetext
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,codeigniter,sublimetext
-
-### CodeIgniter ###
-*/config/development
-*/logs/log-*.php
-!*/logs/index.html
-*/cache/*
-!*/cache/index.html
-!*/cache/.htaccess
-
-user_guide_src/build/*
-user_guide_src/cilexer/build/*
-user_guide_src/cilexer/dist/*
-user_guide_src/cilexer/pycilexer.egg-info/*
-
-#codeigniter 3
-application/logs/*
-!application/logs/index.html
-!application/logs/.htaccess
-/vendor/
-
-### CodeIgniter Patch ###
+# Created by https://www.toptal.com/developers/gitignore/api/windows,sublimetext
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,sublimetext
 
 ### SublimeText ###
 # Cache files for Sublime Text
@@ -81,4 +60,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,codeigniter,sublimetext
+# End of https://www.toptal.com/developers/gitignore/api/windows,sublimetext
