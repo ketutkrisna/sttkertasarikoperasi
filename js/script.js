@@ -1,0 +1,1 @@
+var baseurl='http://sttkertasari.000webhostapp.com/';
