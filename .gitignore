@@ -1,5 +1,20 @@
-# Created by https://www.toptal.com/developers/gitignore/api/windows,sublimetext
-# Edit at https://www.toptal.com/developers/gitignore?templates=windows,sublimetext
+# Created by https://www.toptal.com/developers/gitignore/api/windows,sublimetext,phpunit
+# Edit at https://www.toptal.com/developers/gitignore?templates=windows,sublimetext,phpunit
+
+### PHPUnit ###
+# Covers PHPUnit
+# Reference: https://phpunit.de/
+
+# Generated files
+.phpunit.result.cache
+.phpunit.cache
+
+# PHPUnit
+/app/phpunit.xml
+/phpunit.xml
+
+# Build data
+/build/
 
 ### SublimeText ###
 # Cache files for Sublime Text
@@ -9,7 +24,6 @@
 
 # Workspace files are user-specific
 *.sublime-workspace
-vendor/mpdf/
 
 # Project files should be checked into the repository, unless a significant
 # proportion of contributors will probably not be using Sublime Text
@@ -61,4 +75,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/windows,sublimetext
+# End of https://www.toptal.com/developers/gitignore/api/windows,sublimetext,phpunit
